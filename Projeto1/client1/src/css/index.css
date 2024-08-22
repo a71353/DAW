@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  height: 100vh; /* Alteração: 100% para 100vh para altura total da viewport */
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Simplificação das fontes */
+  /*background: url('URL_DA_SUA_IMAGEM') no-repeat center center fixed; /* Adição de uma imagem de fundo */
+  /*background-size: cover; /* Garante que a imagem de fundo cubra todo o elemento */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    background-image: url('/public/back.png'); 
+    background-size: cover; /* Isso fará com que a imagem cubra toda a página */
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace; /* Simplificação da fonte de código */
+  color: #787; /* Cor mais escura para melhor legibilidade */
+}
+
+
+/* styles.css */
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.OutlinedInput {
+  background-color: white; /* Define o fundo do campo de busca como branco */
+  border-radius: 4px; /* Arredonda os cantos do campo de busca */
+  border: 1px solid #ced4da; /* Adiciona uma borda cinza clara ao campo de busca */
+}
+
+.OutlinedInput:focus {
+  border-color: #80bdff; /* Muda a cor da borda para um azul claro quando focado */
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); /* Adiciona um sombreado sutil ao redor do campo quando focado */
+}
+
+/* Adicionando estilo personalizado para o título 'Calendar' */
+.calendar-header {
+  font-size: 2.5rem; /* Torna o texto maior */
+  text-transform: uppercase;
+  color: #555; /* Cor do texto */
+  font-weight: bold; /* Torna o texto em negrito */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  text-align: center; /* Centraliza o texto */
+  padding: 10px 20px; /* Adiciona padding para criar espaço dentro da caixa */
+  margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+  display: inline-block; /* Permite a aplicação de padding e bordas */
+  background-color: rgba(255, 255, 255, 0.8); /* Adiciona um fundo branco semi-transparente */
+  border-radius: 15px; /* Arredonda os cantos do fundo */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
